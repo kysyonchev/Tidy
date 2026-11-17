@@ -1,4 +1,4 @@
-# Tidy
+# Tidy v1.1.6
 
 **A visual cleaner for Homebrew packages, apps and system junk on macOS.**
 
