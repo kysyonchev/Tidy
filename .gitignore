@@ -6,6 +6,8 @@ out/
 bin/
 Debug/
 Release/
+icon/
+release/
 RelWithDebInfo/
 MinSizeRel/
 CMakeCache.txt
