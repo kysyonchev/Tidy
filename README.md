@@ -71,7 +71,6 @@ Tidy/
 ├── main.cpp          # the whole application
 ├── CMakeLists.txt    # build configuration
 ├── README.md
-├── GITHUB_GUIDE.md   # how to publish and update this repo
 ├── LICENSE
 └── .gitignore
 ```
