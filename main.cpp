@@ -545,7 +545,7 @@ public:
 
     void showAbout() {
         QMessageBox::about(this, "About Tidy",
-            "<h2>Tidy 1.1</h2><p>A visual cleaner for Homebrew packages, apps and system junk on macOS.</p>"
+            "<h2>Tidy 1.1.6</h2><p>A visual cleaner for Homebrew packages, apps and system junk on macOS.</p>"
             "<p>• See what each package does and what it connects to<br>"
             "• Remove apps together with everything they leave behind<br>"
             "• Clear caches, find large files, export a Brewfile<br>"
@@ -570,7 +570,7 @@ int main(int argc, char **argv) {
     qputenv("HOMEBREW_NO_INSTALL_CLEANUP", "1");
     QApplication app(argc, argv);
     app.setApplicationName("Tidy");
-    app.setApplicationVersion("1.1");
+    app.setApplicationVersion("1.1.6");
     app.setStyleSheet(R"(
         QListWidget { border: none; background: transparent; outline: 0; }
         QListWidget::item { padding: 6px 10px; border-radius: 6px; }
